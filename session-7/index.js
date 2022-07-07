@@ -50,7 +50,6 @@ console.log(numbers.sort(function(a, b){return b-a}));
 
 
 
-
 // ****************************************************TASK 3****************************************************
 
 // Notice the backticks enclosing t'challa. Read https://www.javascripttutorial.net/es6/javascript-template-literals/ for an explanation on template literals
@@ -65,3 +64,19 @@ const people = [
 function compare(a, b) {
   return a.age - b.age;
 }
+const people = [
+  { name: `t'challa`, age: 37 },
+  { name: 'shuri', age: 16 },
+  { name: 'killmonger', age: 32 }
+  ]
+
+people.sort((a, b) => {
+  return a.age - b.age;
+}
+);
+let names = [];
+
+for (let index = 0; index < people.length; index++) {
+  names.push(people[index].name)
+}
+console.log(names);
