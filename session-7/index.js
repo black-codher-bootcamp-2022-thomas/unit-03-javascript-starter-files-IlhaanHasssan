@@ -37,8 +37,7 @@ console.log(names.reverse());
 
 
 const numbers = [5, 325, 67, 100000, 150]
-console.log(numbers.sort());
-numbers.sort(function(a, b){return a-b});
+console.log(numbers.sort(function(a, b){return a-b}));
 console.log(numbers.sort(function(a, b){return b-a}));
 
 
