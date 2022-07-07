@@ -7,7 +7,20 @@ console.log(animals[2])
 console.log(animals.pop());
 
 
+console.log(digits)
 
+
+
+digits.push(6);
+
+digits.unshift(0);
+
+console.log(digits);
+
+console.log(digits.length);
+
+
+console.log(digits.sort().reverse());
 
 
 
@@ -18,6 +31,16 @@ console.log(animals.pop());
 
 
 // ****************************************************TASK 2****************************************************
+const names = ['beyonce', 'kelly', 'michelle', 'mariah', 'ariana', 'lana', 'doja cat', 'billie', 'jazmine', 'adele']
+console.log(names.sort());
+console.log(names.reverse());
+
+
+const numbers = [5, 325, 67, 100000, 150]
+console.log(numbers.sort());
+numbers.sort(function(a, b){return a-b});
+console.log(numbers.sort(function(a, b){return b-a}));
+
 
 
 
